@@ -1,4 +1,6 @@
 #!/bin/sh
 
-ln -s $HOME/Projects/dotfiles/gitconfig $HOME/.gitconfig
-ln -s $HOME/Projects/dotfiles/gitignore_global $HOME/.gitignore_global
+ln -sf $PWD/gitconfig $HOME/.gitconfig
+ln -sf $PWD/gitignore_global $HOME/.gitignore_global
+ln -sf $PWD/vim $HOME/.vim
+ln -sf $PWD/vimrc $HOME/.vimrc
