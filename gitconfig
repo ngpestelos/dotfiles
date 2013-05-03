@@ -1,0 +1,12 @@
+[user]
+  name = Nestor G Pestelos Jr
+  email = ngpestelos@gmail.com
+
+[color]
+  ui = auto
+
+[push]
+  default = upstream
+
+[core]
+  excludesfile = ~/.gitignore_global
