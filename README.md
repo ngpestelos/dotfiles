@@ -16,6 +16,11 @@ Configuration files
 
 * install config files (requires prezto)
 
+### tmux
+
+* remap Ctrl-b to Ctrl-a
+* add vertical and horizontal split screens
+
 ### install script
 
 * create symlinks
