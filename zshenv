@@ -82,3 +82,9 @@ export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sb
 #
 
 export CFLAGS='-O3 -Wall'
+
+#
+# Scala
+#
+export SCALA_HOME=/usr/local/lib/scala-2.10.1
+export PATH=$PATH:$SCALA_HOME/bin:$HOME/sbt/bin
