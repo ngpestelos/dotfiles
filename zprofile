@@ -6,9 +6,9 @@
 #
 
 eval "$(fasd --init auto)"
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
 
 vim() {
   (unset GEM_PATH GEM_HOME; command vim "$@")
 }
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
