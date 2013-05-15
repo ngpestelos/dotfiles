@@ -88,3 +88,9 @@ export CFLAGS='-O3 -Wall'
 #
 export SCALA_HOME=/usr/local/lib/scala-2.10.1
 export PATH=$PATH:$SCALA_HOME/bin:$HOME/sbt/bin
+
+#
+# Maven
+#
+export MVN_HOME=/usr/local/lib/apache-maven-3.0.5
+export PATH=$PATH:$MVN_HOME/bin
