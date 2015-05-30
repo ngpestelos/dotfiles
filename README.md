@@ -1,26 +1,19 @@
-Configuration files
+dotfiles
+========
 
-### git
+A collection of settings for command-line development.
 
-* add username, email
-* set ui color
-* set global ignore
+### Usage
 
-### vim
+    $ git clone git@github.com:ngpestelos/dotfiles.git
+    $ cd dotfiles
+    $ ./install
 
-* install .vim and .vimrc
-* install pathogen
-* install sensible defaults
+### Installation
 
-### zsh
+These files are copied to `$HOME`:
 
-* install config files (requires prezto)
-
-### tmux
-
-* remap Ctrl-b to Ctrl-a
-* add vertical and horizontal split screens
-
-### install script
-
-* create symlinks
+* `.bashrc` (aliases, environment variables, etc.)
+* `.bash_profile` (sources `~/.bashrc`)
+* `.gitconfig` (git user and email)
+* `.gitignore_global` (ignores `.DS_Store`, etc.)
