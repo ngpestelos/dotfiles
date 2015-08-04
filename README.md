@@ -17,3 +17,7 @@ These files are copied to `$HOME`:
 * `.bash_profile` (sources `~/.bashrc`)
 * `.gitconfig` (git user and email)
 * `.gitignore_global` (ignores `.DS_Store`, etc.)
+
+### Inspiration
+
+* [grb's dotfiles](https://github.com/garybernhardt/dotfiles)
