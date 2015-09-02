@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-cp .gitconfig "$HOME/"
-cp .gitignore_global "$HOME"
-cp .bashrc "$HOME/"
-cp .bash_profile "$HOME/"
-cp .vimrc "$HOME/"
