@@ -4,10 +4,10 @@ autocmd!
 
 call pathogen#infect('bundle/{}')
 
+
 """""""""""""""""""""""""""""
 " BASIC EDITING CONFIGURATION
 """""""""""""""""""""""""""""
-
 set nocompatible
 set hidden
 set history=10000
@@ -38,6 +38,7 @@ set showcmd
 syntax on
 filetype plugin indent on
 set autoread
+
 
 """""""""""""""""
 " CUSTOM AUTOCMDS
@@ -79,8 +80,17 @@ augroup vimrcEx
   autocmd! FileType *.slim set sw=2 sts=2 et
 augroup END
 
+
 """""""""""""
 " STATUS LINE
 """""""""""""
-
 :set statusline=%<%f\ (%{&ft})\ %-4(%m%)%=%-19(%3l,%02c%03V%)
+
+
+""""""""
+" CTRL-P
+""""""""
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+:helptags ~/.vim/bundle/ctrlp.vim/doc
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
