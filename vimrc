@@ -94,3 +94,9 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 :helptags ~/.vim/bundle/ctrlp.vim/doc
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+
+""""""""""""""
+" EXPLORE MODE
+""""""""""""""
+let g:netrw_liststyle=3
