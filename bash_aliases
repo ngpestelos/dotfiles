@@ -12,5 +12,7 @@ alias gplr="git pull --rebase"
 alias gs="git status"
 alias i=irb
 alias p=python
+alias ru=ruby
+alias r=rails
 alias s="cd ~/src"
 alias sb="source ~/.bashrc"
