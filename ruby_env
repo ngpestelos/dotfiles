@@ -1,0 +1,7 @@
+RUBY_ENGINE="ruby"
+RUBY_VERSION="2.3.0"
+CHRUBY_PATH="/usr/local/opt/chruby/share/chruby/chruby.sh"
+
+source "$CHRUBY_PATH"
+
+chruby "$RUBY_ENGINE"-"$RUBY_VERSION"
