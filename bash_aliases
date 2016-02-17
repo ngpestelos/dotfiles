@@ -1,5 +1,6 @@
 alias ap="ansible-playbook"
 alias be="bundle exec"
+alias c="bundle exec cucumber"
 alias cs="cd ~/src"
 alias gap="git add -p"
 alias gb="git branch"
