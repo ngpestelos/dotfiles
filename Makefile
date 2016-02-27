@@ -7,5 +7,5 @@ install: clean
 
 clean:
 	for script in $(BASH_FILES); do rm -f $(HOME)/.$$script; done
-	rm $(HOME)/.vimrc
+	rm -f $(HOME)/.vimrc
 	rm -rf $(HOME)/.vim
