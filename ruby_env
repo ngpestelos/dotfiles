@@ -1,7 +1,14 @@
 RUBY_ENGINE="ruby"
 RUBY_VERSION="2.3.0"
-CHRUBY_PATH="/usr/local/opt/chruby/share/chruby/chruby.sh"
-CHRUBY_AUTO_PATH="/usr/local/opt/chruby/share/chruby/auto.sh"
+
+if [[ "$(uname)" == "Linux" ]]; then
+  CHRUBY_ROOT="/usr/local/share/chruby"
+else
+  CHRUBY_ROOT="/usr/local/opt/chruby/share/chruby"
+fi
+
+CHRUBY_PATH="$CHRUBY_ROOT/chruby.sh"
+CHRUBY_AUTO_PATH="$CHRUBY_ROOT/auto.sh"
 
 source "$CHRUBY_PATH"
 source "$CHRUBY_AUTO_PATH"
