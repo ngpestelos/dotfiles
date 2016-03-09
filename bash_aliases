@@ -17,5 +17,5 @@ alias i=irb
 alias p=python
 alias ru=ruby
 alias r=rails
-alias rt="rake test"
+alias t="rake test"
 alias sb="source ~/.bashrc"
