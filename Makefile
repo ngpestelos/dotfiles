@@ -1,4 +1,4 @@
-BASH_FILES=bash_profile bashrc bash_aliases
+BASH_FILES=bash_profile bash_aliases
 
 install: clean
 	for script in $(BASH_FILES); do cp $$script $(HOME)/.$$script; done
